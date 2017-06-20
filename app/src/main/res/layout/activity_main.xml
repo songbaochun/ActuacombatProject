@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="conterller"
+            type="com.example.s.actuacombatproject.controlers.MainController" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWrite"
+        android:orientation="vertical"
+        tools:context="com.example.s.actuacombatproject.activitis.MainActivity">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mainviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!--选中的考试-->
+            <RelativeLayout
+                android:id="@+id/relativeLayouExamSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_bottom_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_exam_selected" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_selected"
+                    android:layout_centerHorizontal="true"
+                    android:text="考试"
+                    android:textColor="@color/colorLime"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <!--没有选中考试-->
+            <RelativeLayout
+                android:id="@+id/relativeLayouExamNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/image_bottom_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_exam_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_normal"
+                    android:layout_centerHorizontal="true"
+                    android:text="考试"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--选中的福利-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutWelfareSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/image_bottom_welfare_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_welfare_selected" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_welfare_selected"
+                    android:layout_centerHorizontal="true"
+                    android:text="福利"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--没有选中的福利-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutWelfareNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_bottom_welfare_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_welfare_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_welfare_normal"
+                    android:layout_centerHorizontal="true"
+                    android:text="福利"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--选中的社区-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutSchoolSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/image_bottom_school_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_school_selected" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_school_selected"
+                    android:layout_centerHorizontal="true"
+                    android:text="社区"
+                    android:textColor="@color/colorLime"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--没有选中的社区-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutSchoolNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_bottom_school_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_school_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_school_normal"
+                    android:layout_centerHorizontal="true"
+                    android:text="社区"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--选中的发现-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutFindSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/image_bottom_find_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_find_selected" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_find_selected"
+                    android:layout_centerHorizontal="true"
+                    android:text="发现"
+                    android:textColor="@color/colorLime"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--没有选中的发现-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutFindNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_bottom_find_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_find_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_find_normal"
+                    android:layout_centerHorizontal="true"
+                    android:text="发现"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--选中的购车-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutNewCarSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/image_bottom_newcar_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_newcar_selected" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_newcar_selected"
+                    android:layout_centerHorizontal="true"
+                    android:text="购车"
+                    android:textColor="@color/colorLime"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            <!--没有选中的购车-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutNewCarNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_bottom_newcar_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/bottom_newcar_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_bottom_newcar_normal"
+                    android:layout_centerHorizontal="true"
+                    android:text="发现"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,19 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="controller"
+            type="com.example.s.actuacombatproject.controlers.SignUpController" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWrite"
+        tools:context="com.example.s.actuacombatproject.fragments.SignUpFragment">
+
+
+    </FrameLayout>
+</layout>

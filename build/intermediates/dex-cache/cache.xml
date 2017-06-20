@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/s/AndroidStudioProjects/201706119/ActuaCombatproject/app/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="128ce4ceb647425acea04b65ee259fe015a4f78a">
+        <dex dex="/home/s/AndroidStudioProjects/201706119/ActuaCombatproject/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android_c89d8962afeb191416ac41aed935d4d029850acb.jar" />
+    </item>
+
+</items>
