@@ -24,6 +24,7 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/questionsReturn"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@mipmap/icon_record_zuof" />

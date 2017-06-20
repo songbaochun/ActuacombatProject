@@ -9,22 +9,41 @@
             type="com.example.s.actuacombatproject.controlers.ExaminationController" />
     </data>
 
-        <android.support.v4.widget.DrawerLayout
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWrite"
+
+        >
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorWrite">
-
+            android:orientation="vertical">
 
             <android.support.design.widget.TabLayout
                 android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <android.support.v4.view.ViewPager
                 android:id="@+id/examinationViewPager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
+        </LinearLayout>
 
 
-        </android.support.v4.widget.DrawerLayout>
+
+        <fragment
+            android:id="@+id/sds"
+            android:name="com.example.s.actuacombatproject.fragments.SideslipFragment"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/colorWrite" />
+
+
+    </android.support.v4.widget.DrawerLayout>
 
 </layout>

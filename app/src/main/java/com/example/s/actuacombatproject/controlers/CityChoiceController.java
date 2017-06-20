@@ -1,5 +1,6 @@
 package com.example.s.actuacombatproject.controlers;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -13,6 +14,8 @@ import com.baidu.location.BDLocationListener;
 import com.example.s.actuacombatproject.MyApplication;
 import com.example.s.actuacombatproject.R;
 import com.example.s.actuacombatproject.activitis.CityChoiceActivity;
+import com.example.s.actuacombatproject.activitis.MainActivity;
+import com.example.s.actuacombatproject.activitis.QuestionsChoiceActivity;
 import com.example.s.actuacombatproject.databinding.ActivityCityChoiceBinding;
 import com.example.s.actuacombatproject.service.LocationService;
 
@@ -26,11 +29,19 @@ public class CityChoiceController {
     private MyApplication application;
     private LocationService locationService;
 
-    public CityChoiceController(CityChoiceActivity cityChoiceActivity, ActivityCityChoiceBinding binding) {
+    public CityChoiceController(final CityChoiceActivity cityChoiceActivity, ActivityCityChoiceBinding binding) {
         this.cityChoiceActivity = cityChoiceActivity;
         this.binding = binding;
         setScrollViewTextColor();
         setCityText();
+
+        binding.cityReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(cityChoiceActivity, QuestionsChoiceActivity.class);
+                cityChoiceActivity.startActivity(intent);
+            }
+        });
     }
 
     private void setScrollViewTextColor() {
