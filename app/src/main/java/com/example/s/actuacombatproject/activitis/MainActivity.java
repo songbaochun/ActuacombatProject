@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(MainActivity.this, R.layout.activity_main);
         controller = new MainController(this, binding);
-        binding.setConterller(controller);
+        binding.setController(controller);
     }
 
 }

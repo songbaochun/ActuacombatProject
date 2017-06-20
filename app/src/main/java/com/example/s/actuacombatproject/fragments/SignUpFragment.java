@@ -11,6 +11,7 @@ import com.example.s.actuacombatproject.R;
 
 /**
  * A simple {@link Fragment} subclass.
+ *  报名页面
  */
 public class SignUpFragment extends Fragment {
     private View view;

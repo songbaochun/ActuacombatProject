@@ -13,7 +13,104 @@
         android:layout_height="match_parent"
         android:background="@color/colorWrite"
         tools:context="com.example.s.actuacombatproject.fragments.SignUpFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#00cd00"
+
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_vertical"
+                android:background="#fffafa"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同城驾校总数269所"
+                        android:textColor="@color/colorBlack"/>
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同城平均学费3574元"
+                        android:textColor="@color/colorBlack"/>
+                </LinearLayout>
 
 
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/apply_school_icon" />
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/apply_coach_icon" />
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/apply_peilian_icon" />
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/apply_search_icon" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="驾校"
+                        android:textColor="@color/colorDarkGray"/>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="教练"
+                        android:textColor="@color/colorDarkGray"/>
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="陪练"
+                        android:textColor="@color/colorDarkGray"/>
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="搜索"
+                        android:textColor="@color/colorDarkGray"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
     </FrameLayout>
 </layout>

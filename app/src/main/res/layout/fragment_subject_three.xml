@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s.actuacombatproject.fragments.SubjectThreeFragment"
+    android:background="@color/colorWrite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#00cd00"
+
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:background="#fffafa"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+
+                    android:layout_weight="1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/kemu2_miji"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/kemu2_shipin"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/kemu2_kaoqianchongci"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/kemu2_baoxian"
+                    android:layout_marginTop="15dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="科三秘籍"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="视频集锦"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="考前冲刺"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="学车保险"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

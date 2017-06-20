@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/s/AndroidStudioProjects/201706119/ActuaCombatproject/app/libs/BaiduLBS_Android.jar"
+        jar="/home/s/AndroidStudioProjects/201706119/ActuacombatProject/app/libs/BaiduLBS_Android.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="128ce4ceb647425acea04b65ee259fe015a4f78a">
-        <dex dex="/home/s/AndroidStudioProjects/201706119/ActuaCombatproject/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android_c89d8962afeb191416ac41aed935d4d029850acb.jar" />
+        <dex dex="/home/s/AndroidStudioProjects/201706119/ActuacombatProject/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android_fb2cc709d0784979f4835810a3a25e18fb9e08f5.jar" />
     </item>
 
 </items>

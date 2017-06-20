@@ -18,11 +18,11 @@ public class QuestionsChoiceActivity extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions_choice);
-       findViewById(R.id.btnquding).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnquding).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(QuestionsChoiceActivity.this,CityChoiceActivity.class);
-              startActivity(intent);
+                Intent intent = new Intent(QuestionsChoiceActivity.this, CityChoiceActivity.class);
+                startActivity(intent);
             }
         });
     }

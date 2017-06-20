@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="runner-0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/ce8bc152f6e693eb11cf9b60d9ea62f5013d2132/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/ce8bc152f6e693eb11cf9b60d9ea62f5013d2132/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Android/SDK/Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
