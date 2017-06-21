@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
+import com.example.s.actuacombatproject.abstracts.BaseFragment;
 import com.example.s.actuacombatproject.databinding.FragmentExaminationBinding;
 import com.example.s.actuacombatproject.fragments.CarBuyingFragment;
 import com.example.s.actuacombatproject.fragments.CommunityFragment;
@@ -30,7 +31,7 @@ public class ExaminationController implements ViewPager.OnPageChangeListener {
     private ExaminationFragment examinationFragment;
     private FragmentExaminationBinding binding;
     private FragmentManager fragmentManager;
-    private List<Fragment> list = new ArrayList<>();
+    private List<BaseFragment> list = new ArrayList<>();
     private SignUpFragment signUpFragment;
     private SubjectOneFragment subjectOneFragment;
     private SubjectTwoFragment subjectTwoFragment;
@@ -71,7 +72,7 @@ public class ExaminationController implements ViewPager.OnPageChangeListener {
      */
     private void setMainViewPagerAdapter(FragmentPagerAdapter fragmentPagerAdapter) {
         binding.examinationViewPager.setAdapter(fragmentPagerAdapter);
-        fragmentPagerAdapter.notifyDataSetChanged();
+      //  fragmentPagerAdapter.notifyDataSetChanged();
     }
 
     /**
@@ -94,9 +95,9 @@ public class ExaminationController implements ViewPager.OnPageChangeListener {
      */
     private FragmentPagerAdapter getFragmentPagerAdapter() {
 
-        return new FragmentPagerAdapter(fragmentManager) {
+        return new FragmentPagerAdapter(examinationFragment.getChildFragmentManager()) {
             @Override
-            public Fragment getItem(int position) {
+            public BaseFragment getItem(int position) {
                 return list.get(position);
             }
 
@@ -106,16 +107,14 @@ public class ExaminationController implements ViewPager.OnPageChangeListener {
             }
 
             @Override
-            public void notifyDataSetChanged() {
-                getCount();
-                super.notifyDataSetChanged();
+            public CharSequence getPageTitle(int position) {
+
+                return getItem(position).getTitle();
             }
 
-            @Override
-            public int getItemPosition(Object object) {
-                return super.getItemPosition(object);
-            }
         };
+
+
     }
 
     @Override

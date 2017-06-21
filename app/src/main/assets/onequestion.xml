@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+
+    <question>
+        <title>在雨天哪类路面最容易发生侧滑？</title>
+        <a>A：刚下雨的路面</a>
+        <b>B：大雨过后路面</b>
+        <c>C：暴雨中的路面</c>
+        <d>D：大雨中的路面</d>
+        <type>duo</type>
+
+        <answer>abcd</answer>
+    </question>
+    <question>
+        <title>驾驶人违反交通运输管理法规发生重大事故致人重伤的可能判处3年以下徒刑或拘役。</title>
+        <a>对</a>
+        <b>错</b>
+        <type>pan</type>
+        <answer>a</answer>
+    </question>
+    <question>
+        <title>驾驶人未携带哪种证件驾驶机动车上路，交通警察可依法扣留车辆？</title>
+        <a>A：机动车通行证</a>
+        <b>B：居民身份证</b>
+        <c>C：从业资格证</c>
+        <d>D：机动车行驶证</d>
+        <type>single</type>
+        <answer>a</answer>
+    </question>
+
+</data>

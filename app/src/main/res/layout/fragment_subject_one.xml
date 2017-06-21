@@ -1,5 +1,13 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+  <data>
+      <variable
+          name="controller"
+          type="com.example.s.actuacombatproject.controlers.SubjectOneFragmentController"/>
+
+
+  </data>
+<FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.s.actuacombatproject.fragments.SubjectOneFragment"
@@ -45,13 +53,14 @@
                         android:layout_height="wrap_content"
                         android:text="1%"/>
                     <Button
-                        android:layout_marginTop="10dp"
+                        android:id="@+id/btn_subject_one_question"
+                        android:layout_marginTop="5dp"
                         android:layout_gravity="center_horizontal"
                         android:background="@drawable/shape"
                         android:text="考题练习"
                         android:textSize="9dp"
                         android:layout_width="80dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
                        />
                 </LinearLayout>
                 <LinearLayout
@@ -75,13 +84,13 @@
                         android:layout_height="wrap_content"
                         android:text="未考试"/>
                     <Button
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="5dp"
                         android:layout_gravity="center_horizontal"
                         android:background="@drawable/shape"
                         android:text="模拟考试"
                         android:textSize="9dp"
                         android:layout_width="80dp"
-                        android:layout_height="30dp" />
+                        android:layout_height="35dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -157,3 +166,4 @@
     </LinearLayout>
 
 </FrameLayout>
+</layout>

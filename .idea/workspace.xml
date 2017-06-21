@@ -6,11 +6,34 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd64f421-a833-4802-be80-dfb434d067e8" name="Default" comment="" />
+    <list default="true" id="dd64f421-a833-4802-be80-dfb434d067e8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/assets/onequestion.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/SubjectOneQuestionsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/base/Questions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SubjectOneFragmentController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SubjectOneQuestionsController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/tool/OneQuestionsReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_subject_one_questions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/ExaminationController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/ExaminationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SignUpFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SignUpFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectForFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectForFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectOneFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectOneFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectThreeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectThreeFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectTwoFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectTwoFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/TakeThisFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/TakeThisFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_examination.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_examination.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_one.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_one.xml" />
+    </list>
     <ignored path="ActuacombatProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +55,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state />
+        </projects_view>
       </state>
     </system>
   </component>
@@ -40,38 +65,12 @@
     <favorites_list name="ActuacombatProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="fragment_examination.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_examination.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SubjectOneQuestionsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/SubjectOneQuestionsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="39" column="85" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_sideslip.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_sideslip.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SideslipFragmentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SideslipFragmentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="466">
+              <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,86 +78,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityChoiceController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/CityChoiceController.java">
+      <file leaf-file-name="onequestion.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/onequestion.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="40" column="84" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
-              <folding>
-                <element signature="e#1420#1687#0" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionsChoiceActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/QuestionsChoiceActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="601">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_questions_choice.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_questions_choice.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="SubjectOneQuestionsController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SubjectOneQuestionsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionsChoiceController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/QuestionsChoiceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="587">
+              <caret line="88" column="67" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#879#1139#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1187#1461#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityChoiceActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/CityChoiceActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_city_choice.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_city_choice.xml">
+      <file leaf-file-name="activity_subject_one_questions.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subject_one_questions.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SideslipFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SideslipFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            <state relative-caret-position="193">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,9 +118,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2073,14 +2026,11 @@
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/ExaminationFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/ExaminationController.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_one.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_two.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_three.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_for.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_take_this.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_examination.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_sideslip.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SideslipFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SideslipFragmentController.java" />
@@ -2089,6 +2039,28 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/CityChoiceController.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/QuestionsChoiceActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/QuestionsChoiceController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_examination.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/abstracts/BaseFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectForFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectThreeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectTwoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/TakeThisFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SignUpFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/ExaminationController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectOneFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SubjectOneFragmentController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_one.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/question" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/subjectonequestion" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/onequestion" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/onequestion" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/base/Questions.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/tool/OneQuestionsReader.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/SubjectOneQuestionsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_subject_one_questions.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/onequestion.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SubjectOneQuestionsController.java" />
       </list>
     </option>
   </component>
@@ -2109,7 +2081,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2123,132 +2095,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActuacombatProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActuacombatProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActuacombatProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActuacombatProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actuacombatproject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActuacombatProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actuacombatproject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActuacombatProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actuacombatproject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActuacombatProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actuacombatproject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activitis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="ProjectPane">
+        <subPane />
       </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2581,36 +2436,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4980695" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8484525" sideWeight="0.08383894" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6168623" sideWeight="0.91616106" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8482906" sideWeight="0.08383894" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.99893165" sideWeight="0.91616106" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498621" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5124899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2625,30 +2480,66 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/QuestionsChoiceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_questions_choice.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/QuestionsChoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/CityChoiceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_city_choice.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SideslipFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/s/actuacombatproject/databinding/FragmentExaminationBinding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/TakeThisFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectTwoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2668,7 +2559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2687,15 +2577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/ExaminationFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2706,7 +2587,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2717,7 +2597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2728,7 +2607,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2736,36 +2614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/ExaminationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="e#4153#4180#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectOneFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_one.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2773,18 +2621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_examination.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="39" column="85" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2793,7 +2629,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="675">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding />
         </state>
@@ -2803,17 +2639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SideslipFragmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="648">
           <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2822,7 +2654,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="648">
           <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
@@ -2831,6 +2663,49 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap/icon_record_zuof.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/CityChoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="40" column="84" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/CityChoiceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/QuestionsChoiceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/QuestionsChoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/ExaminationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/SDK/Sdk/extras/android/m2repository/com/android/support/support-core-ui/25.3.1/support-core-ui-25.3.1-sources.jar!/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="504" column="16" selection-start-line="504" selection-start-column="16" selection-end-line="504" selection-end-column="16" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_questions_choice.xml">
@@ -2844,43 +2719,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/CityChoiceController.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectForFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="40" column="84" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
+        <state relative-caret-position="628">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
-            <element signature="e#1420#1687#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="false" />
+            <element signature="e#867#868#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/CityChoiceActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectThreeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        <state relative-caret-position="513">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#756#757#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectTwoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/TakeThisFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SignUpFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/abstracts/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/QuestionsChoiceActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/ExaminationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="2322">
+          <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+          <folding>
+            <element signature="e#3585#3586#0" expanded="false" />
+            <element signature="e#3642#3643#0" expanded="false" />
+            <element signature="e#3701#3702#0" expanded="false" />
+            <element signature="e#3751#3752#0" expanded="false" />
+            <element signature="e#4105#4132#0" expanded="false" />
+            <element signature="e#9416#9417#0" expanded="false" />
+            <element signature="e#9482#9483#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/question">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/QuestionsChoiceController.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/subjectonequestion">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/onequestion">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_one.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="86" column="51" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/fragments/SubjectOneFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/SDK/Sdk/sources/android-25/javax/xml/parsers/DocumentBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="170" column="32" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/examclick.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_examination.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/tool/OneQuestionsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#879#1139#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1187#1461#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/base/Questions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SubjectOneFragmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/activitis/SubjectOneQuestionsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/onequestion.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subject_one_questions.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s/actuacombatproject/controlers/SubjectOneQuestionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="88" column="67" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

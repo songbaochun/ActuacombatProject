@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+            <variable
+                name="controller"
+                type="com.example.s.actuacombatproject.controlers.SubjectOneQuestionsController"/>
+    </data>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLime"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:layout_marginTop="14dp"
+                android:text="顺序练习"
+                android:textColor="@color/colorWrite"
+                android:textSize="20sp" 
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:background="@color/colorWrite"
+          android:layout_weight="1">
+          <TextView
+              android:id="@+id/subject_one_question_text"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="问题"
+              android:textColor="@color/colorBlack"/>
+          <LinearLayout
+              android:id="@+id/duo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+              <CheckBox
+                  android:id="@+id/subject_one_question_boxA"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/colorBlack"
+                  />
+              <CheckBox
+                  android:id="@+id/subject_one_question_boxB"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/colorBlack"
+                  />
+              <CheckBox
+                  android:id="@+id/subject_one_question_boxC"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/colorBlack"
+                  />
+              <CheckBox
+                  android:id="@+id/subject_one_question_boxD"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/colorBlack"
+                  />
+          </LinearLayout>
+          <LinearLayout
+              android:id="@+id/radio"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+              <RadioGroup
+                  android:id="@+id/aaa"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+                  <RadioButton
+                      android:id="@+id/a"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/colorBlack"/>
+                  <RadioButton
+                      android:id="@+id/b"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/colorBlack"/>
+                  <RadioButton
+                      android:id="@+id/c"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/colorBlack"/>
+                  <RadioButton
+                      android:id="@+id/d"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/colorBlack"/>
+              </RadioGroup>
+
+          </LinearLayout>
+      </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="5"
+            android:background="@color/colorGainsboro"
+            android:gravity="right">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一题"
+                android:layout_marginLeft="20dp"
+                 />
+            <Button
+                android:id="@+id/qued"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="確定" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下一题"
+                android:layout_marginRight="20dp"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+</layout>

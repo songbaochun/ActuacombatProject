@@ -49,10 +49,11 @@
 
         <activity
             android:name=".activitis.CityChoiceActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activitis.QuestionsChoiceActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activitis.QuestionsChoiceActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activitis.SubjectOneQuestionsActivity" />
     </application>
 
 </manifest>

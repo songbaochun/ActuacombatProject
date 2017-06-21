@@ -8,12 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.s.actuacombatproject.R;
+import com.example.s.actuacombatproject.abstracts.BaseFragment;
 
 /**
  * A simple {@link Fragment} subclass.
  *  报名页面
  */
-public class SignUpFragment extends Fragment {
+public class SignUpFragment extends BaseFragment {
     private View view;
 
     @Override
@@ -23,4 +24,8 @@ public class SignUpFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public String getTitle() {
+        return "报名";
+    }
 }

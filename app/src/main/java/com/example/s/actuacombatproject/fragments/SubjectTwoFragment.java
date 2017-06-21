@@ -8,11 +8,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.s.actuacombatproject.R;
+import com.example.s.actuacombatproject.abstracts.BaseFragment;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SubjectTwoFragment extends Fragment {
+public class SubjectTwoFragment extends BaseFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -21,4 +22,8 @@ public class SubjectTwoFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_subject_two, container, false);
     }
 
+    @Override
+    public String getTitle() {
+        return "科二";
+    }
 }
