@@ -1,31 +1,132 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<data>
+<questions>
+        <question>
+            <title>在狭窄的山路会车，规定不靠山体的一方优先行驶的原因是什么？</title>
+            <a>A.靠山体的一方相对安全</a>
+            <b>B.三项都正确</b>
+            <c>C.靠山体的一方视野宽阔</c>
+            <d>D.不靠山体的一方车速较快</d>
+            <type>single</type>
+            <answer>a</answer>
+            <description>不靠山体的一方是悬崖，更危险，所以先行。反过来靠山体的一方是相对安全的。</description>
+        </question>
 
-    <question>
-        <title>在雨天哪类路面最容易发生侧滑？</title>
-        <a>A：刚下雨的路面</a>
-        <b>B：大雨过后路面</b>
-        <c>C：暴雨中的路面</c>
-        <d>D：大雨中的路面</d>
-        <type>duo</type>
+        <question>
+            <title>防抱死制动系统（ABS）在什么情况下可以最大限度发挥制动器效能？</title>
+            <a>A、间歇制动</a>
+            <b>B、持续制动</b>
+            <c>C、缓踏制动踏板</c>
+            <d>D、紧急制动</d>
+            <type>single</type>
+            <answer>d</answer>
+            <description>ABS的目的就是为了防止刹车的时候一脚踩死，导致翻车什么的。 不过刹车刹死就比较慢（速度N快的时候），效果等于踩下刹车，再松下刹车，反复几次！
+            </description>
+        </question>
 
-        <answer>abcd</answer>
-    </question>
-    <question>
-        <title>驾驶人违反交通运输管理法规发生重大事故致人重伤的可能判处3年以下徒刑或拘役。</title>
-        <a>对</a>
-        <b>错</b>
-        <type>pan</type>
-        <answer>a</answer>
-    </question>
-    <question>
-        <title>驾驶人未携带哪种证件驾驶机动车上路，交通警察可依法扣留车辆？</title>
-        <a>A：机动车通行证</a>
-        <b>B：居民身份证</b>
-        <c>C：从业资格证</c>
-        <d>D：机动车行驶证</d>
-        <type>single</type>
-        <answer>a</answer>
-    </question>
+        <question>
+            <title>驾驶的车辆正在被其他车辆超越时，若此时后方有跟随行驶的车辆，应怎样做?</title>
+            <a>A、继续加速行驶</a>
+            <b>B、稍向右侧行驶，保证横向安全距离</b>
+            <c>C、靠道路中心行驶</c>
+            <d>D、加速向右侧让路</d>
+            <type>single</type>
+            <answer>b</answer>
+            <description>我们都应该让,安全行驶,一定要和谐。</description>
+        </question>
 
-</data>
+
+        <question>
+            <title>机动车驾驶人驾驶证有效期满换领驾驶证时，须提交县级以上医疗机构出具的身体条件证明</title>
+            <a>A正确</a>
+            <b>B错误</b>
+
+            <type>judge</type>
+            <answer>a</answer>
+            <description>《道路运输从业人员管理规定》规定：机动车驾驶人驾驶证有效期满换领驾驶证时，须提交县级以上医疗机构出具的身体条件证明</description>
+        </question>
+        <question>
+            <title>机动车驾驶人驾驶证有效期满换领驾驶证时，须提交县级以上医疗机构出具的身体条件证明</title>
+            <a>A正确</a>
+            <b>B错误</b>
+            <type>judge</type>
+            <answer>a</answer>
+            <description>《道路运输从业人员管理规定》规定：机动车驾驶人驾驶证有效期满换领驾驶证时，须提交县级以上医疗机构出具的身体条件证明</description>
+        </question>
+        <question>
+            <title>交通警察发出的是左转弯待转手势信号。</title>
+            <a>A正确</a>
+            <b>B错误</b>
+            <image>http://ww3.sinaimg.cn/large/ca44ca2ajw1eba7xodm63j20dw05gwf0.jpg</image>
+            <type>judge</type>
+            <answer>a</answer>
+            <description>减速慢行的手势是右手，此图是左转弯待转手势信号。</description>
+        </question>
+
+        <question>
+            <title>驾驶机动车遇到前方道路拥堵时，可以借用无人通行的非机动车道行驶。</title>
+            <a>A正确</a>
+            <b>B错误</b>
+
+            <type>judge</type>
+            <answer>b</answer>
+            <description>机动车不得借用非机动车道行驶。</description>
+        </question>
+
+
+        <question>
+            <title>驾驶车辆在道路上行驶时，应当按照规定的速度安全行驶。</title>
+            <a>A正确</a>
+            <b>B错误</b>
+
+            <type>judge</type>
+            <answer>a</answer>
+            <description>注意“安全行驶”四个字。有安全两个字就不会错了</description>
+        </question>
+
+
+        <question>
+            <title>驾驶机动车在高速公路上发生故障，需要停车排除故障时，若能将机动车移至应急车道内，则不需要开启危险报警闪光灯。</title>
+            <a>A正确</a>
+            <b>B错误</b>
+
+            <type>judge</type>
+            <answer>b</answer>
+            <description>车辆发生故障了，为了提醒后来车辆注意避免事故发生，都应该开启危险报警闪光灯。
+            </description>
+        </question>
+
+        <question>
+            <title>驾驶汽车怎样向左安全变更车道?</title>
+            <a>A、观察左侧道路情况</a>
+            <b>B、打开左转向灯</b>
+            <c>C、不得影响正常通行车辆</c>
+            <d>D、迅速向左变道</d>
+            <type>multiselect</type>
+            <answer>abc</answer>
+            <description>凡是迅速的一般都是错误的。</description>
+        </question>
+
+        <question>
+            <title>驾驶汽车在道路急转弯处怎样行驶?</title>
+            <a>A、减速靠路右侧行驶</a>
+            <b>B、不能占用对方车道</b>
+            <c>C、注意对面来车</c>
+            <d>D、鸣喇叭示意</d>
+            <type>multiselect</type>
+            <answer>abcd</answer>
+            <description>牢记吧</description>
+        </question>
+
+        <question>
+            <title>驾驶机动车通过学校时要注意什么？</title>
+            <a>A、观察标志标线</a>
+            <b>B、减速慢行</b>
+            <c>C、不要鸣喇叭</c>
+            <d>D、快速通过</d>
+            <type>multiselect</type>
+            <answer>abc</answer>
+            <description>
+                在有学校的路段一般都会设置提醒有学校或是禁止鸣喇叭的交通标志，因此在经过学校时不仅要观察交通标志，还要记住不得鸣喇叭。另外，由于学校周围会有学生走动，因此在途经时车速一定要慢，避免撞到人或其他。因此本题要选ABC。
+            </description>
+        </question>
+
+    </questions>

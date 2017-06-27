@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWrite"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/subject_one_question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="问题"
+            android:textColor="@color/colorBlack"/>
+        <LinearLayout
+            android:id="@+id/duo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/subject_one_question_boxA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                />
+            <CheckBox
+                android:id="@+id/subject_one_question_boxB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                />
+            <CheckBox
+                android:id="@+id/subject_one_question_boxC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                />
+            <CheckBox
+                android:id="@+id/subject_one_question_boxD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/panduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/subject_one_question_judge_RadioxA"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"/>
+                <RadioButton
+                    android:id="@+id/subject_one_question_judge_RadioxB"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"/>
+
+            </RadioGroup>
+        </LinearLayout>
+            <LinearLayout
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/subject_one_question_RadioxA"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"/>
+                <RadioButton
+                    android:id="@+id/subject_one_question_RadioxB"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"/>
+                <RadioButton
+                    android:id="@+id/subject_one_question_RadioxC"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"/>
+                <RadioButton
+                    android:id="@+id/subject_one_question_RadioxD"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"/>
+            </RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

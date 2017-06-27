@@ -33,7 +33,6 @@ public class MainController implements View.OnClickListener {
     private CommunityFragment communityFragment;//社区
     private CarBuyingFragment carBuyingFragment;//购车
     private FindFragment findFragment;//发现
-    private SignUpController signUpController;//报名
     private WelfareFragment welfareFragment;// 福利
     // private List<Fragment> fragmentList = new ArrayList<>();
 
@@ -47,7 +46,6 @@ public class MainController implements View.OnClickListener {
         binding.radioButtonWelfare.setOnClickListener(this);
         binding.radioButtonFind.setOnClickListener(this);
         binding.radioButtonNewCar.setOnClickListener(this);
-
 
 
 
@@ -74,7 +72,7 @@ public class MainController implements View.OnClickListener {
     private void addExamFragment() {
 
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.mainfragment, new ExaminationFragment())
+        fragmentTransaction.replace(R.id.mainfragment, examinationFragment)
                 .commit();
 
     }
